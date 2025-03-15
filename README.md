@@ -24,10 +24,11 @@ _mk-bootable-usb.sh_  | you could use this script to create bootable USB
  tasksel tasksel/first multiselect standard, desktop, lxde-desktop - for workstation
  3) Run the following:
  ```console
+
+ git clone ssh://git@github.com:dorofeevdspb/debian-autoinstall.git
+
  apt-get -y install bsdtar xorriso
- 
- git clone git@github.com:dorofeevdsp/debian-autoinstall.git
- 
+   
  bash run.sh 
 
  # /dev/sdb - usb disk
