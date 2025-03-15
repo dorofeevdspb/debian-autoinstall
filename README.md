@@ -26,7 +26,7 @@ _mk-bootable-usb.sh_  | you could use this script to create bootable USB
  ```console
  apt-get -y install bsdtar xorriso
  
- git clone git@github.com:nen-dev/debian-autoinstall.git
+ git clone git@github.com:dorofeevdsp/debian-autoinstall.git
  
  bash run.sh 
 
